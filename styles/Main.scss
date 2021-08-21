@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .main-left {
+    flex: 3;
+    height: 100%;
+    background-image: url(/img/ocean.png);
+  }
+  .main-right {
+    background: #e1bdbb;
+    height: 100%;
+    flex: 2;
+  }
+}
